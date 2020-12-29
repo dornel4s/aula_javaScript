@@ -1,4 +1,24 @@
 
+function trocar(elemento) {
+    elemento.innerHTML = "Obrigada por passar o mouse";
+    // document.getElementById("mousemove").innerHTML = "obrigada por passar o mouse"
+    //alert("Trocar texto");
+}
+
+function voltar(elemento) {
+    elemento.innerHTML = "passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+//function clicou() {
+    //document.getElementById("agradecimento").innerHTML = "Obrigada por clicar";
+    //console.log(document.getElementById("agradecimento"))
+    //alert("Obrigado por clicar");
+//}
+
+//function redirecionar() {
+    //window.open("https://google.com");
+   // window.location.href = "https://google.com";
+//}
 
 /*var validar=0
 function validaIdade(idade){
